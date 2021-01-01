@@ -1,0 +1,159 @@
+*{
+    padding: 0px;
+    background-color:crimson;
+}
+.container h1{
+    max-width: 1368px;
+    background-color: yellow;
+    color:crimson;
+    margin: auto;
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.logo{
+  top: 50%;
+  margin-left: 570px;
+  margin-bottom: 1000px;
+ } 
+
+.button1{
+    position:absolute;
+    top:70%;
+    left:50%;
+    color:black;
+    padding: 10px;
+    background-color:gold;
+    border-color: lightcoral;
+}
+.button2{
+
+    position:absolute;
+    top:50%;
+    left: 50%;
+    color: black;
+    padding: 10px;
+    background-color: gold;
+    border-color: lightcoral;
+}
+.bd{
+    position: absolute;
+    margin-left:100px;
+    margin-right: 50px;
+
+}
+.blink-image {
+    -moz-animation: blink normal 5s infinite ease-in-out; /* Firefox */
+    -webkit-animation: blink normal 5s infinite ease-in-out; /* Webkit */
+    -ms-animation: blink normal 5s infinite ease-in-out; /* IE */
+    animation: blink normal 5s infinite ease-in-out; /* Opera and prob css3 final iteration */
+    top:10%;
+    position: absolute;
+    width: 100%;
+   /* height: 50%;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-left: 60px;
+    margin-right: 0px;
+    height: 450px;
+    margin-right: 300px;
+    margin-top:30px;
+    */opacity: 2.3;
+}
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+ 
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* IE */
+@-ms-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+/* Opera and prob css3 final iteration */
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+.container p{
+    text-align: center;
+    margin: auto;
+    margin-top: 500px;
+    font-size: 30px;
+    color: goldenrod;
+}
+.button3{
+    position:absolute;
+    top:130%;
+    left: 50%;
+    color: black;
+    padding: 10px;
+    background-color: greenyellow;
+    border-color: lightcoral;
+}
+input,textarea{
+    width:70%;
+    background-color: white;
+    margin:auto;
+    margin-bottom: 10px;
+    display: table;
+    padding: 20px;
+    border-color:yellow;
+    border-radius: 30px;
+    outline: none;
+    
+}
+.button4{
+    position:absolute;
+    top:100%;
+    left: 50%;
+    color: black;
+    padding: 12px 8px;
+    background-color: white;
+    border-color: lightcoral;
+    cursor: pointer;
+    background: white;
+    font-size: 20px;
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+
+}
+.que{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    text-shadow: darkgoldenrod;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <link rel="stylesheet" href="studstyle.css">
+</head>
+<body>
+    <div class="container">
+        <p class="st">Galgotias University Student Information Portal</p>
+        <img src="./back3.jpg" alt="Background" class="blink-image">
+        <img src="./back4.jpg" alt="Background" class="blink-image">
+        <img src="./back5.jpg" alt="Background" class="blink-image">
+        <img src="./back6.jpg" alt="Background" class="blink-image">
+        <p class="eg">Search Using Name</p>
+        <!--<label for="Course" class="bg"> Select Course:</label>
+        <select id="course" class="course">
+             <option value="btech">B.tech</option>
+             <option value="bba">BBA</option>
+        </select>
+        <label for="Department" class="cg"> Select Deaprtment:</label>
+        <select id="department" class="department">
+             <option value="cse">CSE</option>
+             <option value="mech">Mechanical</option>
+        </select>
+        <label for="Year" class="dg"> Select Year:</label>
+        <select id="year" class="year">
+             <option value="first">First</option>
+             <option value="second">Second</option>
+             <option value="third">Third</option>
+             <option value="fourth">Fourth</option>
+
+        </select>-->
+        <br>
+    <form action="sdb.php" method="post">
+        <input type="text" name="admno" id="admno" placeholder="Enter Student Admission Number to Search:" class="admno">
+        <button type="submit" class="button5">Search</button>
+    </form>
+    <form action="sdbe.php" method="post">
+        <input type="text" name="enrolno" id="enrolno" placeholder="Enter Enrolnment Number to Search:" class="enrolno">
+        <button type="submit" class="button6">Search</button>
+    </form>
+    </div>
+</body>
+</html>

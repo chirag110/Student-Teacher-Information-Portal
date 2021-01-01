@@ -1,0 +1,155 @@
+*{
+    background-color:darkred;
+}
+.blink-image {
+    -moz-animation: blink normal 8s infinite ease-in-out; /* Firefox */
+    -webkit-animation: blink normal 5s infinite ease-in-out; /* Webkit */
+    -ms-animation: blink normal 6s infinite ease-in-out; /* IE */
+    animation: blink normal 7s infinite ease-in-out; /* Opera and prob css3 final iteration */
+    position: absolute;
+    width: 100%;
+   /* height: 50%;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-left: 60px;
+    margin-right: 0px;
+    height: 450px;
+    margin-right: 300px;
+    margin-top:30px;
+    */opacity: 2.3;
+    margin-top: 300px;
+}
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+ 
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* IE */
+@-ms-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+/* Opera and prob css3 final iteration */
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+.st{
+   text-align: center;
+   font-size: 20px;
+   color: goldenrod;
+   font-size: 40px;
+}
+input{
+    align-items: center;
+    margin:auto;
+    display: table;
+    color:black;
+    margin-right: auto;
+    position: absolute;
+    background: white;
+    margin:auto;
+    width: 100%;
+    margin-left: auto;
+    border-radius: 20px;
+    padding: 15px;
+}
+.ag{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+.button5{
+    margin:auto;
+    margin-top: 60px;
+    margin-left: 650px;
+    color: black;
+    background: white;
+}
+.bg{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+}
+.course{
+    background: white;
+}
+.cg{
+
+    color:white;
+    text-align: center;
+    left:40%;
+    font-size:25px;
+}
+.department{
+    background:white;
+}
+.dg{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    left:50%;
+}
+.year{
+    background: white;
+}
+.eg{
+    text-align: center;
+   font-size: 20px;
+   color: goldenrod;
+   font-size: 40px;
+}
+.enrolno{
+    align-items: center;
+    margin:auto;
+    display: table;
+    color:black;
+    margin-right: auto;
+    position: absolute;
+    background: white;
+    margin:auto;
+    width: 100%;
+    margin-left: auto;
+    border-radius: 20px;
+    padding: 15px;
+}
+.button6{
+    margin:auto;
+    margin-top: 90px;
+    margin-left: 650px;
+    color:black;
+    background: white;
+}
